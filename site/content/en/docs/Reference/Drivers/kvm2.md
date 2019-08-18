@@ -16,11 +16,12 @@ description: >
 
 ## Special features
 
-The `minikube start` command supports 3 additional kvm specific flags:
+The `minikube start` command supports 4 additional kvm specific flags:
 
-* **`--gpu`**: Enable experimental NVIDIA GPU support in minikube
-* **`--hidden`**: Hide the hypervisor signature from the guest in minikube
-* **`--kvm-network`**:  The KVM network name
+* **`--kvm-gpu`**: Enable experimental NVIDIA GPU support in minikube
+* **`--kvm-hidden`**: Hide the hypervisor signature from the guest in minikube
+* **`--kvm-network`**: The KVM network name
+* **`--kvm-qemu-uri`**: The KVM QEMU connection URI. (works only with kvm2 driver on linux)
 
 ## Issues
 
